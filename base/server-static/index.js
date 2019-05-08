@@ -122,6 +122,9 @@ function serverHandler(req, res){
         const lastModified = stats.mtime.toUTCString()
         res.setHeader('Last-Modified', lastModified)
     
+        // 设置size
+        res.setHeader('Content-Length', stats.size)
+
         const ext = path.extname(filePath)
         res.setHeader('Content-Type', mime.getType(ext))
     }
