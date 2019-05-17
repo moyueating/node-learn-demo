@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const Photos = require('../models/Photo')
 
-new Photos({name: 'this is from node'}).save().then(() => {
-    console.log('success')
-})
+// new Photos({name: 'this is from node'}).save().then(() => {
+//     console.log('success')
+// })
 
 
 const photos = [{
