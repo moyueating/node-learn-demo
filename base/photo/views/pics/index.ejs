@@ -10,14 +10,17 @@
 
 
     <div class="box">
-        <% photos.forEach(function(photo){ %>
-            <div class="photo">
-                <h3><%= photo.name%></h3>
-                <img src="<%= photo.path%>" alt="">
+        <% pics.forEach(function(pic){ %>
+            <div class="pic">
+                <h3><%= pic.name%></h3>
+                <img src="<%= pic.path%>" alt="">
             </div>
         <% }) %>
     </div>
 
-    
+    <div class="add">新增</div>
+
+    <script src="/js/jq.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>

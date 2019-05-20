@@ -15,7 +15,7 @@ a {
   margin-top: 30px;
 }
 
-.photo{
+.pic{
   padding: 10px;
   border: 1px solid #ddd;
   box-shadow: 0 4px 10px 0 rgba(174,191,212,.26);
@@ -24,7 +24,7 @@ a {
   border-radius: 4px;
 }
 
-.photo img{
+.pic img{
   height: 100px;
   margin-top: 10px;
 }
