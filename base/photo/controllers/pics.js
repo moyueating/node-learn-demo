@@ -17,7 +17,7 @@ exports.index = function(req, res, next){
 
 exports.add = function(req, res, next){
     const instance = new Pics({
-        name: Math.random() ? 'ctrip.com' : 'trip.com',
+        name: Math.random() ? 'www.com' : 'test.com',
         path: 'https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=c653f6878d01a18bf0eb1549a6146035/9825bc315c6034a81358c82ac1134954082376e6.jpg'
     })
     instance.save(((err, pic) => {
